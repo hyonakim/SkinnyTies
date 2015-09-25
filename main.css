@@ -129,4 +129,38 @@ header {
   padding-left: 14px;
 }
 
+.littleBlock {
+  display: inline-block;
+  margin: 40px 0 0 15px;
+}
+
+#column3 {
+  margin-left: 80px;
+}
+
+.littleBlock img {
+  position: relative;
+  width: 350px;
+}
+
+.littleBlock h3 {
+  position: absolute;
+  top: 600px;
+  margin-left: 250px;
+}
+
+blockquote {
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
