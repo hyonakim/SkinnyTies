@@ -50,7 +50,7 @@ header {
 
 #signReg {
   float: right;
-  margin: 12px 140px 0 0;
+  margin: 20px 140px 0 0;
   position: relative;
 
 }
@@ -86,3 +86,47 @@ header {
   padding: 7px;
   border-radius: 3px;
 }
+
+#searchBar {
+  display: inline-block;
+}
+
+#searchbox {
+  position: relative;
+}
+
+#searchIcon {
+  position: absolute;
+  display: inline-block;
+  background: url('images/sprite@2x.png') no-repeat -15px -15px;
+  background-size: 400px 200px;
+  width: 13px;
+  height: 13px;
+  top: 10px;
+}
+
+#tieSection {
+  background: #F4F4F4;
+  margin: 0 20px;
+  height: 400px;
+}
+
+#tieSection h1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+
+.tieImage {
+  display: inline-block;
+}
+
+.tieImage img {
+  width: 70px;
+}
+
+.tieImage p {
+  padding-left: 14px;
+}
+
+
