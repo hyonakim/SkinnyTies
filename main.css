@@ -155,6 +155,11 @@ blockquote {
   text-align: center;
 }
 
+blockquote span {
+  color: #2B9DFF;
+  font-size: 20px;
+}
+
 
 
 
