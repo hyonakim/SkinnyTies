@@ -31,20 +31,17 @@ header {
   border-radius: 5px;
 }
 
-.navArea img {
+#tieLogo img {
   width: 120px;
   padding-left: 10px;
-  margin-left: 130px;
+  margin: 0 40px 0 130px;
   float: left;
 }
 
-.navbar ul {
-  margin-left: 30px;
-}
 .navbar li {
   display: inline-block;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .navbar li a {
@@ -53,15 +50,39 @@ header {
 
 #signReg {
   float: right;
-  margin-right: 100px;
+  margin: 12px 140px 0 0;
+  position: relative;
 
 }
 #signReg a {
   color: #A0A0A0;
   text-decoration: none;
   font-size:  12px;
+  margin-left: 6px;
+}
+
+#cartImage {
+  background: url('images/sprite@2x.png') no-repeat -45px -16px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 10px;
+  display: inline-block;
+  padding-bottom: 2px;
 }
 
 #cartSearch {
-  float: right;
+  position: absolute;
+  right: 140px;
+  top: 100px;
+}
+
+#cart span {
+  padding-right: 5px;
+}
+
+#cart {
+  display: inline-block;
+  border: 1px solid #E2E2E2;
+  padding: 7px;
+  border-radius: 3px;
 }
