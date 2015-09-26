@@ -153,7 +153,7 @@ blockquote {
   font-size: 35px;
   font-family: 'Raleway', sans-serif;;
   text-align: center;
-  margin: 100px 0;
+  margin: 100px 103px 100px 0;
 }
 
 blockquote span {
@@ -291,16 +291,18 @@ blockquote span {
 footer {
   position: relative;
   background: #F4F4F4;
+  margin-top: 62px;
 }
 
 .bottomContainer ul {
   float: left;
+  margin-top: 0px;
 }
 
 .bottomContainer h6 {
   position: absolute;
-  margin-top: 1px;
-  top: -6px;
+  margin-top: 6px;
+  top: -40px;
   left: 43px;
   font-size: 14px;
 }
@@ -309,27 +311,31 @@ footer {
   color: #A2A2A2;
 }
 
+#bottomList {
+  margin-top: 20px;
+}
+
 #shopby {
   position: absolute;
-  bottom: 70px;
+  bottom: 38px;
 }
 
 #aboutus {
   position: absolute;
   left: 128px;
-  bottom: 90px;
+  bottom: 58px;
 }
 
 #styleguide {
   position: absolute;
   left: 284px;
-  bottom: 109px;
+  bottom: 77px;
 }
 
 #help {
   position: absolute;
   left: 425px;
-  bottom: 110px;
+  bottom: 77px;
 }
 
 #contactBox {
@@ -363,9 +369,19 @@ footer {
 }
 
 .coInfo {
-  margin-top: 159px;
+  margin: 172px 0 0 39px;
   display: inline-block;
+  color: #8B8B8B;
+  font-size: 13px;
 }
 
+#copyright {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#madeBy {
+  display: inline-block;
+}
 
 
