@@ -171,13 +171,104 @@ blockquote span {
   padding: 4px 0;
 }
 
+#bottom4 {
+  margin-left: 305px;
+  padding: 220px 0 0 0;
+}
 
+.column4 {
+  position: relative;
+  display: inline-block;
+  margin: 45px 0 0 55px;
+}
 
+.column4 h4 {
+  padding: 0 0 8px 0;
+  margin: 0;
+}
 
+.column4 img {
+  width: 200px;
+}
 
+.column4 p {
+  margin: 0;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
 
+#weekly {
+  position: absolute;
+  bottom: -15px;
+  right: 1px;
+}
 
+#loopUs {
+  position: absolute;
+  bottom: 43px;
+}
 
+#quarterly {
+  position: absolute;
+  bottom: 52px;
+  left: 180px;
+}
 
+#subscribe {
+  background: #F3F3F3;
+  width: 172px;
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+}
 
+#style {
+  position: absolute;
+  bottom: -14px;
+  left: 365px;
+}
+
+.column4 form {
+  padding-top: 5px;
+}
+
+#button {
+  background: #299FFF;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 12px;
+  color: #fff;
+}
+
+.socialIcons {
+  margin-top: 10px
+}
+
+#facebook {
+  display: inline-block;
+  background: url('images/sprite@2x.png') no-repeat -270px 0;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+  padding-right: 6px;
+}
+
+#pinterest {
+  display: inline-block;
+  background: url('images/sprite@2x.png') no-repeat -270px -40px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+  padding-right: 6px;
+}
+
+#twitter {
+  display: inline-block;
+  background: url('images/sprite@2x.png') no-repeat -270px -80px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}
 
