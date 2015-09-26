@@ -204,6 +204,10 @@ blockquote span {
   right: 1px;
 }
 
+#weekly p {
+  color: #61B6FF;
+}
+
 #loopUs {
   position: absolute;
   bottom: 43px;
@@ -211,13 +215,21 @@ blockquote span {
 
 #quarterly {
   position: absolute;
-  bottom: 52px;
+  bottom: 24px;
   left: 180px;
+}
+
+#quarterly p {
+  padding-bottom: 14px;
+}
+
+#innerBox {
+  padding: 5px;
 }
 
 #subscribe {
   background: #F3F3F3;
-  width: 172px;
+  width: 181px;
   border: none;
   border-radius: 3px;
   padding: 3px;
@@ -229,8 +241,12 @@ blockquote span {
   left: 365px;
 }
 
+#style a {
+  color: #61B6FF;
+}
+
 .column4 form {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 #button {
@@ -271,4 +287,85 @@ blockquote span {
   width: 35px;
   height: 35px;
 }
+
+footer {
+  position: relative;
+  background: #F4F4F4;
+}
+
+.bottomContainer ul {
+  float: left;
+}
+
+.bottomContainer h6 {
+  position: absolute;
+  margin-top: 1px;
+  top: -6px;
+  left: 43px;
+  font-size: 14px;
+}
+
+.bottomContainer li {
+  color: #A2A2A2;
+}
+
+#shopby {
+  position: absolute;
+  bottom: 70px;
+}
+
+#aboutus {
+  position: absolute;
+  left: 128px;
+  bottom: 90px;
+}
+
+#styleguide {
+  position: absolute;
+  left: 284px;
+  bottom: 109px;
+}
+
+#help {
+  position: absolute;
+  left: 425px;
+  bottom: 110px;
+}
+
+#contactBox {
+  float: right;
+}
+
+#contactBox {
+  position: relative;
+  background: #A2AFC0;
+  margin: 30px 50px 0 0;
+  width: 350px;
+  border: 1px solid #8F9BAB;
+  border-radius: 3px;
+  padding: 15px;
+  color: #fff;
+}
+
+#contactLink {
+  position: absolute;
+  right: 36px;
+  bottom: 30px;
+}
+
+#contactButton {
+  background: #33A1FF;
+  padding: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.coInfo {
+  margin-top: 159px;
+  display: inline-block;
+}
+
+
 
