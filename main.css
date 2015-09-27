@@ -318,12 +318,15 @@ blockquote span {
 }
 
 .innerBox {
-  padding: 5px;
+  padding: 4px;
+  position: absolute;
+  top: 73px;
 }
 
 .outerBox {
   background: #F3F3F3;
-  width: 181px;
+  width: 178px;
+  height: 26px;
   border: none;
   border-radius: 3px;
   padding: 3px;
