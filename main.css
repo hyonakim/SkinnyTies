@@ -11,11 +11,13 @@ header {
   margin: 0 20px;
 }
 
-#discounts {
+/*Top Discount Info Bar*/
+
+.discounts {
   margin: 20px 0 0 40px;
 }
 
-#discounts li {
+.discounts li {
   display: inline-block;
   color: #fff;
   font-size: 14px;
@@ -23,18 +25,22 @@ header {
   padding-left: 15px;
 }
 
-#discounts li span {
+.discounts li span {
   padding: 5px;
   background: #C7532B;
   border-radius: 5px;
 }
 
-#tieLogo img {
+/*Site Logo*/
+
+.tieLogo img {
   width: 120px;
   padding-left: 10px;
   margin: 0 40px 0 130px;
   float: left;
 }
+
+/*Navigation Bar*/
 
 .navbar li {
   display: inline-block;
@@ -49,38 +55,40 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-#signReg {
+/*Sign In and Register Area*/
+
+.signReg {
   float: right;
   margin: 20px 140px 0 0;
   position: relative;
 }
 
-#signReg a {
+.signReg a {
   color: #A0A0A0;
   text-decoration: none;
   font-size:  12px;
   margin-left: 6px;
 }
 
-#cartSearch {
+.cartSearch {
   position: absolute;
   right: 140px;
   top: 100px;
 }
 
-#cart span {
+.cart span {
   padding-right: 8px;
   font-family: 'Droid Sans', sans-serif;
 }
 
-#cart {
+.cart {
   display: inline-block;
   border: 1px solid #E2E2E2;
   padding: 7px;
   border-radius: 3px;
 }
 
-#cartImage {
+.cartImage {
   background: url('images/sprite@2x.png') no-repeat -45px -16px;
   background-size: 400px 200px;
   width: 14px;
@@ -89,7 +97,7 @@ header {
   padding-bottom: 2px;
 }
 
-#zero {
+.zero {
   display: inline-block;
   background: #C8C8C8;
   color: #fff;
@@ -101,7 +109,7 @@ header {
   margin-left: 3px;
 }
 
-#leftTriangle {
+.leftTriangle {
   position: absolute;
   width: 0;
   height: 0;
@@ -112,12 +120,12 @@ header {
   left: 63px;
 }
 
-#searchBar {
+.searchBar {
   position: relative;
   display: inline-block;
 }
 
-#greyBox {
+.greyBox {
   background: #F3F3F3;
   width: 173px;
   border: none;
@@ -125,14 +133,14 @@ header {
   padding: 3px;
 }
 
-#searchBar span {
+.searchBar span {
   color: #B1B1B1;
   position: absolute;
   top: 6px;
   left: 26px;
 }
 
-#searchIcon {
+.searchIcon {
   position: absolute;
   display: inline-block;
   background: url('images/sprite@2x.png') no-repeat -15px -15px;
@@ -143,18 +151,20 @@ header {
   left: 8px;
 }
 
-#searchIcon span {
+.searchIcon span {
   position: relative;
 }
 
-#tieSection {
+/*Main Area with Tie Pics*/
+
+.tieSection {
   background: #F4F4F4;
   margin: 35px 20px 0 0;
   height: 400px;
   font-family: 'Droid', sans-serif;
 }
 
-#tieSection h1{
+.tieSection h1{
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
@@ -183,7 +193,7 @@ header {
   margin: 40px 0 0 15px;
 }
 
-#column3 {
+.column3 {
   margin-left: 80px;
 }
 
@@ -213,6 +223,8 @@ blockquote span {
   font-style: normal;
 }
 
+/*4 Column Information Area*/
+
 .perforatedLine:before {
   content:"";
   width: 100%;
@@ -223,7 +235,7 @@ blockquote span {
   padding: 4px 0;
 }
 
-#bottom4 {
+.bottom4 {
   margin-left: 305px;
   padding: 220px 0 0 0;
 }
@@ -250,17 +262,17 @@ blockquote span {
   font-size: 12px;
 }
 
-#weekly {
+.weekly {
   position: absolute;
   bottom: -15px;
   right: 1px;
 }
 
-#weekly p {
+.weekly p {
   color: #61B6FF;
 }
 
-#loopUs {
+.loopUs {
   position: absolute;
   bottom: 77px;
 }
@@ -269,7 +281,7 @@ blockquote span {
   margin-top: 10px
 }
 
-#facebook {
+.facebook {
   display: inline-block;
   background: url('images/sprite@2x.png') no-repeat -270px 0;
   background-size: 400px 200px;
@@ -278,7 +290,7 @@ blockquote span {
   padding-right: 6px;
 }
 
-#pinterest {
+.pinterest {
   display: inline-block;
   background: url('images/sprite@2x.png') no-repeat -270px -40px;
   background-size: 400px 200px;
@@ -287,7 +299,7 @@ blockquote span {
   padding-right: 6px;
 }
 
-#twitter {
+.twitter {
   display: inline-block;
   background: url('images/sprite@2x.png') no-repeat -270px -80px;
   background-size: 400px 200px;
@@ -295,21 +307,21 @@ blockquote span {
   height: 35px;
 }
 
-#quarterly {
+.quarterly {
   position: absolute;
   bottom: 48px;
   left: 180px;
 }
 
-#quarterly p {
+.quarterly p {
   padding-bottom: 14px;
 }
 
-#innerBox {
+.innerBox {
   padding: 5px;
 }
 
-#outerBox {
+.outerBox {
   background: #F3F3F3;
   width: 181px;
   border: none;
@@ -317,13 +329,13 @@ blockquote span {
   padding: 3px;
 }
 
-#style {
+.style {
   position: absolute;
   bottom: -14px;
   left: 365px;
 }
 
-#style a {
+.style a {
   color: #61B6FF;
 }
 
@@ -331,7 +343,7 @@ blockquote span {
   padding-top: 10px;
 }
 
-#button {
+.button {
   background: #299FFF;
   border: none;
   border-radius: 3px;
@@ -340,6 +352,8 @@ blockquote span {
   color: #fff;
   padding: 8px;
 }
+
+/*Footer Area*/
 
 footer {
   position: relative;
@@ -364,39 +378,39 @@ footer {
   color: #A2A2A2;
 }
 
-#bottomList {
+.bottomList {
   margin-top: 20px;
   font-size: 14px;
 }
 
-#shopby {
+.shopby {
   position: absolute;
   bottom: 42px;
 }
 
-#aboutus {
+.aboutus {
   position: absolute;
   left: 128px;
   bottom: 59px;
 }
 
-#styleguide {
+.styleguide {
   position: absolute;
   left: 276px;
   bottom: 76px;
 }
 
-#help {
+.help {
   position: absolute;
   left: 422px;
   bottom: 77px;
 }
 
-#contactBox {
+.contactBox {
   float: right;
 }
 
-#contactBox {
+.contactBox {
   position: relative;
   background: #A2AFC0;
   margin: 30px 122px 0 0;
@@ -406,24 +420,24 @@ footer {
   color: #FEFEFE;
 }
 
-#contactBox h2 {
+.contactBox h2 {
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   margin-left: 12px;
 }
 
-#contactBox p {
+.contactBox p {
   font-family: 'Titillium Web', sans-serif;
   margin-left: 12px;
 }
 
-#contactLink {
+.contactLink {
   position: absolute;
   right: 15px;
   bottom: 16px;
 }
 
-#contactButton {
+.contactButton {
   background: #33A1FF;
   padding: 10px;
   width: 102px;
@@ -441,12 +455,12 @@ footer {
   font-family: 'Droid', sans-serif;
 }
 
-#copyright {
+.copyright {
   display: inline-block;
   margin-right: 30px;
 }
 
-#madeBy {
+.madeBy {
   display: inline-block;
 }
 
