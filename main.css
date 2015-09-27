@@ -399,27 +399,38 @@ footer {
 #contactBox {
   position: relative;
   background: #A2AFC0;
-  margin: 30px 50px 0 0;
-  width: 350px;
+  margin: 30px 122px 0 0;
+  width: 325px;
   border: 1px solid #8F9BAB;
   border-radius: 3px;
-  padding: 15px;
-  color: #fff;
+  color: #FEFEFE;
+}
+
+#contactBox h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin-left: 12px;
+}
+
+#contactBox p {
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 12px;
 }
 
 #contactLink {
   position: absolute;
-  right: 36px;
-  bottom: 30px;
+  right: 15px;
+  bottom: 16px;
 }
 
 #contactButton {
   background: #33A1FF;
   padding: 10px;
-  width: 120px;
+  width: 102px;
   border: 1px solid #278CE2;
   border-radius: 3px;
   color: #fff;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .coInfo {
